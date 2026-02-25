@@ -53,7 +53,8 @@ public class Matrices {
     public static void main(String[] args) {
             try {
                 byte[][] A = {{2, 2, 3},
-                              {4, 5, 6}};
+                              {4, 5, 6},
+                              {1, 2, 3}};
                 byte[][] B = {{2,2,},
                               {3,4},
                               {5,6}};
