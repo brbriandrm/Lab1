@@ -30,7 +30,7 @@ public class MatricesTest {
     }
 
     @Test
-    void testIllegalArumentThrow(){
+    void testIllegalArgumentThrow(){
         byte[][] A = {{1,0,1}};
         byte[][] B =  {{11, -1},
                        {1, 0}};
