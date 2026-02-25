@@ -15,7 +15,7 @@ public class MatricesTest {
                                    {-27},
                                    {16}};
 
-        assertArrayEquals(expectedResult, Matrices.multiplyMatrices(A, B), "Множення матриць не вдалося");
+        assertArrayEquals(expectedResult, MatrixMath.multiplyMatrices(A, B), "Множення матриць не вдалося");
     }
 
 
@@ -26,7 +26,7 @@ public class MatricesTest {
 
         int expectedResult = 3;
 
-        assertEquals(expectedResult, Matrices.sumRowMins(C),"Сума найменших елементів рядків матриці некоректна");
+        assertEquals(expectedResult, MatrixMath.sumRowMins(C),"Сума найменших елементів рядків матриці некоректна");
     }
 
     @Test
@@ -36,7 +36,7 @@ public class MatricesTest {
                        {1, 0}};
 
         try{
-            Matrices.multiplyMatrices(A, B);
+            MatrixMath.multiplyMatrices(A, B);
             fail("Повинен був прокинутий вийняток IllegalArgumentException");
         } catch (IllegalArgumentException e){
 
