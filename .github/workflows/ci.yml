@@ -1,4 +1,4 @@
-name: Java Matrix CI
+name: Java Matrix Operations - Lab 1 OOP
 on: [push, pull_request]
 jobs:
   build:
